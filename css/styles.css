@@ -216,6 +216,9 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -312,7 +315,7 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -503,6 +506,9 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons {
   fill: #f4f4fd;
